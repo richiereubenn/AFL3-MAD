@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CategoryHome_swfit: View {
+struct CategoryHome: View {
     @Environment(ModelData.self) var modelData
     
     var body: some View {
@@ -32,6 +32,6 @@ struct CategoryHome_swfit: View {
 }
 
 #Preview {
-    CategoryHome_swfit()
+    CategoryHome()
         .environment(ModelData())
 }
